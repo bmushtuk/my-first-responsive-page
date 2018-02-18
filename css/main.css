@@ -1,0 +1,19 @@
+.hero-section {
+    background-image: url(../images/bg-hero.jpg);
+    background-size: cover;
+    min-height: 90vh;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+.main-form {
+    padding: 50px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid 1px #d4d4d4;
+
+}
