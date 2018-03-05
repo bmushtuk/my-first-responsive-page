@@ -93,31 +93,47 @@
             <div id="text-carousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#text-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#text-carousel" data-slide-to="1"></li>
-                <li data-target="#text-carousel" data-slide-to="2"></li>
+                <li data-target="#text-carousel" data-slide-to="0" class="active">
+                    <img id="indicator-pic1" class="d-block rounded-circle img-fluid" 
+                        src="images/person-1.jpg" 
+                        alt="First Person"
+                        srcset="images/person-1@2x.jpg">
+                </li>
+                <li data-target="#text-carousel" data-slide-to="1">
+                    <img id="indicator-pic2" class="d-block rounded-circle img-fluid" 
+                        src="images/person-2.jpg" 
+                        alt="Second Person"
+                        srcset="images/person-2@2x.jpg">
+                </li>
             </ol><!-- Wrapper for slides -->
-                            <div class="carousel-inner container" id="carouselCont">
-                                <div class="item active">
-                                            <p class="testims info" id="firstTest">Coming from a non-technical background in the highly competitive millennial age, I hope to help and inspire others who want to gain technical expertise but do not know where to start.</p>
-                                </div>
-                                <div class="item">
-                                            <p class="testims info" id="secTest">My greatest asset is my ability to enthusiastically take on any challenge to produce impactful results.I champion being the voice of the consumer, imagining every possible angle of an approach to a product, gathering customer feedback and pain points, and executing on ideas from conception to QA.</p>
-                                </div>
-                                <div class="item">
-                                            <p class="testims info" id="thirdTest">I enjoy throwing myself into the unknown, the messiest of problems, making sense and order of it to optimize and drive business growth.</p>
-                              </div>  
+            <div class="carousel-inner" role = "listbox" id="carouselCont">
+                <div class="carousel-item active">
+                            <p class="testims info" id="firstTest">Coming from a non-technical background in the highly competitive millennial age, I hope to help and inspire others who want to gain technical expertise but do not know where to start.I enjoy throwing myself into the unknown, the messiest of problems, making sense and order of it to optimize and drive business growth.</p>
+                            <div class="d-flex align-items-end flex-column">
+                                    <p class="quote-name mb-0">
+                                        <strong>Oleksandr Tsukur</strong></p>
+                                    <p class="quote-title">Full-Stack Developer</p>
                             </div>
-                             <!-- Controls -->  
-                     <a class="carousel-control-prev" href="#text-carousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#text-carousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                 </div>
+                <div class="carousel-item">
+                            <p class="testims info" id="secTest">My greatest asset is my ability to enthusiastically take on any challenge to produce impactful results.I champion being the voice of the consumer, imagining every possible angle of an approach to a product, gathering customer feedback and pain points, and executing on ideas from conception to QA.</p>
+                            <div class="d-flex align-items-end flex-column">
+                                    <p class="quote-name mb-0">
+                                        <strong>Vlada Boiko</strong></p>
+                                    <p class="quote-title">UI/UX Designer</p>
+                            </div>
+                </div>
+            </div>
+                             <!-- Controls -->  
+                <a class="carousel-control-prev" href="#text-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#text-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+    </div>
             </div>
         </div>
     </div>
