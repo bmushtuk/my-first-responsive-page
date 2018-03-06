@@ -2,7 +2,6 @@
   font-family: ProximaNova;
   src: url(../fonts/ProximaNova-Reg.ttf);
 }
-
 .hero-section {
   background-image: url(../images/bg-hero.jpg);
   background-size: cover;
@@ -66,7 +65,7 @@ ul {
   list-style-type: none;
 }
 p {
-padding-bottom : 5px;
+padding-bottom: 5px;
 }
 .carousel-content {
   color: #000000;
