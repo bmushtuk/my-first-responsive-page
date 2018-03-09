@@ -2,7 +2,6 @@
   font-family: ProximaNova;
   src: url(../fonts/ProximaNova-Reg.ttf);
 }
-
 .hero-section {
   background-image: url(../images/bg-hero.jpg);
   background-size: cover;
@@ -22,10 +21,10 @@
   border: solid 1px #d4d4d4;
 }
 #cta-button {
-border-radius: 3px;
-background-color: #cc5054;
-box-shadow: 0 3px 0 0 #940308;
-border: solid 1px #cc5054;
+  border-radius: 3px;
+  background-color: #cc5054;
+  box-shadow: 0 3px 0 0 #940308;
+  border: solid 1px #cc5054;
 }
 .info {
   font-family: ProximaNova;
@@ -66,19 +65,19 @@ ul {
   list-style-type: none;
 }
 p {
-padding-bottom : 5px;
+  padding-bottom : 5px;
 }
 .carousel-content {
   color: #000000;
   display: flex;
 }
 #text-carousel {
-width: 80%;
-position: relative;
-padding: 70px;
+  width: 80%;
+  position: relative;
+  padding: 70px;
 }
 .testimonials {
-background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 .carousel-inner {
   min-height: 150px;
