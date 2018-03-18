@@ -28,12 +28,12 @@
   background-color: rgba(255, 255, 255, 0.8);
   border: solid 1px #d4d4d4;
 }
-#cta-button {
+/* #cta-button {
   border-radius: 3px;
   background-color: #cc5054;
   box-shadow: 0 3px 0 0 #940308;
   border: solid 1px #cc5054;
-}
+} */
 .info {
   font-family: ProximaNova;
   font-size: 18px;
@@ -60,17 +60,20 @@
   height: 250px;
   width: 350px;
 }
-ul li.accomplishment::before {
+/* ul li.accomplishment::before {
   content: url("../images/check.svg");
   height: 10px;
   width: 10px;
-  margin-right:  0px;
-}   
+  margin: 0px;
+}    */
 li.accomplishment {
   margin-left: 0px;   
 }
 ul {
   list-style-type: none;
+}
+ul li {
+  margin: 0px;
 }
 p {
   padding-bottom: 5px;
@@ -109,6 +112,9 @@ p {
 }
 .text-bold {
   font-weight: bold;
+}
+.w-50 {
+  width: 50%;
 }
 /* ================================== */
 /* Testimonials Section */
