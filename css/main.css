@@ -176,15 +176,15 @@ footer {
 /* End of Testimonials Section */
 /* ================================ */
 /* Resources Section */
+#resources p {
+  color: #999999;
+}
 #resources h4 a {
   color: #ef5f30;
   text-decoration: underline;
 }
 #resources h4 a:hover {
   text-decoration: none;
-}
-#resources p {
-  color: #999999;
 }
 section .read-more-btn {
   border-radius: 25px;
