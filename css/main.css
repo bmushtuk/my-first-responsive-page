@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'Lucida Grande';
+  font-family: Lucida Grande;
   src: url('../fonts/LucidaGrande.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'ProximaNova-Regular';
+  font-family: ProximaNova-Regular;
   src: url('../fonts/ProximaNova-Reg.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'ProximaNova-Semibold';
+  font-family: ProximaNova-Semibold;
   src: url('../fonts/ProximaNova-Sbold.ttf') format('truetype');
 }
 .hero-section {
@@ -211,5 +211,24 @@ section .read-more-btn:hover svg path {
 }
 /* End of Resources Section */
 /* ================================== */
-/* Footer Section */
-
+/* Blog Section */
+#blog .img-container {
+  overflow: hidden;
+  cursor: pointer;
+}
+#blog .img-container:hover .caption {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+#blog .caption {
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+  bottom: -10px;
+  min-height: 110px;
+  opacity: 0;
+  transition: all .25s ease-in-out;
+}
+/* End of the Blog Section 
+===================================== */
