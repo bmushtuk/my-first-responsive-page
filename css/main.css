@@ -46,8 +46,7 @@
   color: #333333;
 }
 .bio-pic {
-  width: 200px;
-  height: 296px;
+  min-width: 250px;
 }
 .h1{
   margin-top:99px;
