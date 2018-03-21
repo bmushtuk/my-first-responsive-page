@@ -35,7 +35,6 @@
   border: solid 1px #cc5054;
 } */
 .info {
-  font-family: ProximaNova;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
@@ -123,10 +122,6 @@ p {
 .carousel-slide {
   max-height: 415px;
 }
-.testims {
-  padding-left: 175px;
-  width: 100%;
-}
 footer {
   height: 60px;
   line-height: 46px;
@@ -155,11 +150,6 @@ footer {
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-#testimonials .testimonial-text {
-  font-family: 'ProximaNova-Regular', sans-serif;
-  font-size: 25px;
-  color: #333333;
-}
 #testimonials .carousel-indicators {
   bottom: -120px;
 }
@@ -174,10 +164,21 @@ footer {
 #testimonials .carousel-indicators li.active {
   border-color: #e7bfc1;
 }
-#testimonials .carousel-item-content {
-  max-width: 70%;
-  min-height: 300px;
+@media (min-width: 575px) {
+  #testimonials .carousel-item-content {
+    max-width: 70%;
+    min-height: 300px;
+    font-size: 14px;
+    padding-top: 25px;
+  }
 }
+  @media (max-width: 574px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+}
+
 /* End of Testimonials Section */
 /* ================================ */
 /* Resources Section */
