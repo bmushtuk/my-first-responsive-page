@@ -184,17 +184,23 @@ p {
   line-height: 1.59;
   letter-spacing: normal;
   text-align: left;
+  min-width: 820px;
+  min-height: 250px;
 
 }
 footer {
   height: 60px;
   line-height: 46px;
 }   
+.testim-container {
+  min-height: 600px;
+}
 #indicator-pic1,
 #indicator-pic2,  
 #indicator-pic3 {
   width: 90px;
   height: 90px;
+  bottom: -120px;
 }
 #testimonials .carousel:before {
   content: url(../images/quotes.svg);
@@ -249,6 +255,11 @@ footer {
 }
 #resources h4 a:hover {
   text-decoration: none;
+}
+.res-columns {
+  height: 150px;
+  width: 350px;
+  padding-bottom: 290px;
 }
 section .read-more-btn {
   border-radius: 25px;
