@@ -41,14 +41,15 @@
                 </ul>
             </div>
         </nav>
-        <div class="container d-flex flex-column flex-lg-row pt-lg-5 mt-5">
-            <h1 class="display-4 text-white text-center text-lg-left my-3">I Build Growth At Young Saas Companies</h1>
-            <form class="main-form">
+        <div class="container d-flex flex-column flex-lg-row pt-lg-5 mt-5 ">
+            <h1 class="display-4 text-white text-center text-lg-left mt-5">I Build Growth At Young Saas Companies</h1>
+            <form class="main-form" novalidate>
                 <div class="form-group">
-                    <label for="exampleInputEmail1"><strong>Download Your FREE Gantt Chart Template</strong> </label>
-                    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com" autofocus/>
+                    <label for="input-email"><strong>Download Your FREE Gantt Chart Template</strong> </label>
+                    <input type="email" class="form-control form-control-lg" id="input-email" aria-describedby="emailHelp" placeholder="Email" autofocus/>
+                    <p class="wrong-email text-danger d-none">Email address format is invalid. Please try again!</p>
                 </div>
-                <button type="submit" id="cta-button" class="btn btn-lg read-more-btn btn-block">GET IT NOW!</button>
+                <a href="docs/Gantt-Template.xlsx" download="Gantt-Template" class="btn btn-block read-more-btn btn-lg disabled">Download Now</a>
             </form>
         </div>
     </section>
