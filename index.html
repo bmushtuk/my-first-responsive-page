@@ -12,7 +12,7 @@
     <title>My First Responsive Page</title>
   </head>
   <body data-spy="scroll" data-target="#header-nav-menu">
-    <section class="hero-section section">
+    <section class="hero-section section" data-type="background" data-speed="50">
         <nav  id="header-nav-menu" class="navbar navbar-expand-sm navbar-light fixed-top site-header scrolling">
             <div class="container navbar-container">
                 <a class="navbar-brand" href="#">
@@ -41,12 +41,12 @@
                 </ul>
             </div>
         </nav>
-        <div class="container d-flex align-items-center flex-column flex-lg-row pt-lg-5 mt-5 ">
+        <div class="container d-flex flex-column flex-lg-row pt-lg-5 mt-5">
             <h1 class="display-4 text-white text-center text-lg-left my-3">I Build Growth At Young Saas Companies</h1>
             <form class="main-form">
                 <div class="form-group">
                     <label for="exampleInputEmail1"><strong>Download Your FREE Gantt Chart Template</strong> </label>
-                    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com" autofocus/>
                 </div>
                 <button type="submit" id="cta-button" class="btn btn-lg read-more-btn btn-block">GET IT NOW!</button>
             </form>
