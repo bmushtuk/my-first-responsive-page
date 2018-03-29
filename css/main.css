@@ -4,17 +4,17 @@ body {
 /*================================
  Header */
 .hero-section {
-  background-image: url(../images/bg-hero-new.jpg);
+  background-image: url(../images/bg-hero.png);
   background-size: cover;
-  min-height: 95vh;
+  min-height: 100vh;
 }
 .section {
   padding-top: 120px;
 }
 .logo-inverse {
-  height: 55px;
-  margin-top: 10px;
-  margin-right: 10px;
+  height: 50px;
+  margin-top: -10px;
+  margin-left: 10px;
 }
 .navbar-nav .nav-item .nav-link {
   position: relative;
@@ -24,6 +24,17 @@ body {
 .navbar-nav .nav-item .nav-link:hover {
   color: #fff;
   text-decoration: none;
+}
+.navbar-container{
+  height: 75px;
+}
+.main-form{
+  max-width: 350px;
+  max-height: 290px;
+}
+#hero h1{
+  font-size: 60;
+  font-weight: 550;
 }
 .site-header {
   transition: all 0.2s ease-in-out;
@@ -81,10 +92,6 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
   border: solid 1px #d4d4d4;
 }
-.w-600 {
-  font-weight: 600;
-  font-size: 25px;
-}
 .info {
   font-size: 18px;
   font-weight: normal;
@@ -96,7 +103,9 @@ body {
   color: #333333;
 }
 .bio-pic {
-  min-width: 250px;
+  max-height: 250px;
+  max-width: 250px;
+  border: 10px solid rgba(239, 90, 48, 0.15);
 }
 .h1{
   margin-top:99px;
@@ -120,6 +129,10 @@ ul li {
 }
 p {
   padding-bottom: 5px;
+}
+.w-600 {
+  font-weight: 600;
+  font-size: 25px;
 }
 .text-subheading {
   font-size: 40px;
@@ -161,11 +174,7 @@ p {
 .carousel-slide {
   max-height: 415px;
 }
-footer {
-  height: 60px;
-  line-height: 46px;
-}
-testims {
+.testims {
   padding-left: 175px;
   width: 100%;
   font-size: 22px;
@@ -175,11 +184,23 @@ testims {
   line-height: 1.59;
   letter-spacing: normal;
   text-align: left;
+  min-width: 820px;
+  min-height: 250px;
+
+}
+footer {
+  height: 60px;
+  line-height: 46px;
+}   
+.testim-container {
+  min-height: 600px;
 }
 #indicator-pic1,
-#indicator-pic2 {
+#indicator-pic2,  
+#indicator-pic3 {
   width: 90px;
   height: 90px;
+  bottom: -120px;
 }
 #testimonials .carousel:before {
   content: url(../images/quotes.svg);
@@ -200,6 +221,10 @@ testims {
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+#testimonials .testimonial-text {
+  font-size: 25px;
+  color: #333333;
+}
 #testimonials .carousel-indicators {
   bottom: -120px;
 }
@@ -218,24 +243,6 @@ testims {
   max-width: 70%;
   min-height: 300px;
 }
-#testimonials .carousel-inner {
-  max-width: 70%;
-  max-height: 400px;
-}
-@media (min-width: 575px) {
-  #testimonials .carousel-item-content {
-    max-width: 70%;
-    min-height: 300px;
-    font-size: 14px;
-    padding-top: 25px;
-    }
-}
-@media (max-width: 574px) {
-  .carousel-control-prev,
-  .carousel-control-next {
-    display: none;
-   }
-}
 /* End of Testimonials Section */
 /* ================================ */
 /* Resources Section */
@@ -249,11 +256,17 @@ testims {
 #resources h4 a:hover {
   text-decoration: none;
 }
+.res-columns {
+  height: 150px;
+  width: 350px;
+  padding-bottom: 290px;
+}
 section .read-more-btn {
   border-radius: 25px;
   border: 2px solid #ef5f30;
-  color: #ef5f30;
+  color: #ffffff;
   max-width: 300px;
+  background-color: #ef5f30;
 }
 section .read-more-btn:hover {
   color: #ffffff;
@@ -267,9 +280,6 @@ section .read-more-btn:hover svg {
   transform: translate3d(10px,0,0);
 }
 section .read-more-btn svg path {
-  fill: #EF5F30;
-}
-section .read-more-btn:hover svg path {
   fill: #ffffff;
 }
 /* End of Resources Section */
