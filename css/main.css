@@ -30,7 +30,7 @@ body {
 }
 .main-form{
   max-width: 350px;
-  max-height: 270px;
+  max-height: 290px;
 }
 #hero h1{
   font-size: 60;
@@ -280,9 +280,6 @@ section .read-more-btn:hover svg {
   transform: translate3d(10px,0,0);
 }
 section .read-more-btn svg path {
-  fill: #EF5F30;
-}
-section .read-more-btn:hover svg path {
   fill: #ffffff;
 }
 /* End of Resources Section */
