@@ -14,18 +14,15 @@
   <body data-spy="scroll" data-target="#header-nav-menu">
     <section class="hero-section section" data-type="background" data-speed="50">
         <nav  id="header-nav-menu" class="navbar navbar-expand-sm navbar-light fixed-top site-header scrolling">
-            <div class="container navbar-container">
+            <div class="container navbar-container justify-content-center">
                 <a class="navbar-brand" href="#">
                     <svg class="logo-mobile d-sm-none" src="images/logo-inverse-mobile.svg" width="43" height="40" viewbox="0 0 43 40">
                     <path d="M5.12 12.91c0 .134.135.202.407.202.188 0 1.04-.116 2.557-.346 1.516-.231 2.891-.356 4.126-.376-1.38.347-2.568.698-3.561 1.053-.994.356-2.019.75-3.075 1.182-1.056.433-1.814.721-2.275.865-.46.145-.857.217-1.193.217-1.066 0-1.599-.634-1.599-1.903 0-3.269.9-5.566 2.698-6.893.732-.538 1.91-1.177 3.53-1.918 1.62-.74 3.45-1.442 5.49-2.105s4.283-1.235 6.73-1.716a37.539 37.539 0 0 1 7.248-.72c2.447 0 4.695.326 6.745.98 2.05.653 3.765 1.571 5.145 2.754a11.831 11.831 0 0 1 3.185 4.34c.742 1.711 1.114 3.634 1.114 5.768 0 3.25-1.02 6.402-3.06 9.46-2.039 3.056-4.758 5.753-8.156 8.088-3.4 2.336-7.232 4.187-11.5 5.552-4.266 1.365-8.47 2.047-12.612 2.047-.773 0-1.385-.076-1.835-.23a1.543 1.543 0 0 1-.957-.909c-.188-.451-.282-1.12-.282-2.004 0-1.096.094-1.99.282-2.682.189-.692.502-1.49.941-2.394C8.225 25.09 13.464 17.37 20.932 8.065c-1.507.154-3.16.446-4.957.879a70.146 70.146 0 0 0-5.115 1.428c-1.61.519-2.97 1.018-4.078 1.499-1.109.48-1.663.827-1.663 1.039zm23.523-.308c1.036-.493 2.03-.849 2.984-1.066.954-.216 2.065-.312 3.333-.287-.38-1.347-.813-2.332-1.3-2.952-.485-.621-1.212-.957-2.179-1.007-1.184-.062-2.752.406-4.702 1.406-1.95 1-3.902 2.362-5.856 4.087a25.667 25.667 0 0 0-4.936 5.86c-1.336 2.182-2.063 4.392-2.181 6.63-.088 1.666.092 3.13.537 4.391.446 1.262 1.105 2.241 1.976 2.937.872.696 1.9 1.075 3.084 1.137 1.607.084 3.402-.366 5.385-1.351a16.413 16.413 0 0 0 5.178-4.03 26.648 26.648 0 0 0 2.854-4.039 24.071 24.071 0 0 0 1.954-4.26c.476-1.406.743-2.662.802-3.767a4.68 4.68 0 0 0-.315-1.998 3.297 3.297 0 0 0-1.191-1.51c-.547-.384-1.214-.597-2.004-.638a6.548 6.548 0 0 0-1.139.043c-.392.047-.777.11-1.157.186l-1.127.228z"/>
                     </svg>
-                    <img class="logo-black img-fluid logo-navbar " src="images/logo-black.svg" alt="Navbar Logo" />
-                    <img class="logo-inverse img-fluid logo-navbar " src="images/logo-inverse.svg" alt="Navbar Logo" />
+                    <img class="logo-black img-fluid logo-desktop logo-navbar " src="images/logo-black.svg" alt="Navbar Logo" />
+                    <img class="logo-inverse img-fluid logo-desktop logo-navbar " src="images/logo-inverse.svg" alt="Navbar Logo" />
                 </a>
-                <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse"        data-target="#collapseNav" aria-controls="collapseNav" aria-expanded="false"        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <ul  class="navbar-nav  flex-row ml-auto">
+                <ul  class="navbar-nav container d-flex flex-row ml-auto justify-content-end">
                     <li class="nav-item ml-4">
                         <a class="nav-link" href="#aboutSec">About</a>
                     </li>
@@ -44,15 +41,15 @@
                 </ul>
             </div>
         </nav>
-        <div id="hero" class="container d-flex flex-column flex-lg-row pt-lg-5 mt-5 ">
-            <h1 class="display-4 text-white text-center text-lg-left mt-5 pr-5">I Help Drive Growth At<br />Young SaaS Companies</h1>
+        <div id="hero" class="container d-flex flex-column flex-lg-row pt-lg-5 mt-5">
+            <h1 id="hero-text" class="display-4 text-white text-center text-lg-left mt-5 pr-5">I Help Drive Growth At<br />Young SaaS Companies</h1>
             <form class="main-form d-flex container flex-column" novalidate>
                 <div class="form-group">
                     <label class="text-center mb-4 text-18" for="input-email">FREE Gantt Chart Template</label>
                     <input type="email" class="mb-2 form-control form-control-lg" id="input-email" aria-describedby="emailHelp" placeholder="name@example.com" autofocus/>
                 </div>
                 <p class="wrong-email text-danger d-none">Email address format is invalid. Please try again!</p>
-                <a href="docs/Gantt-Template.xlsx" target="_blank" download="Gantt-Template" class="btn btn-block read-more-btn btn-lg disabled">Download Now</a>
+                <a href="docs/Gantt-Template.xlsx" download="Gantt-Template" class="btn btn-block read-more-btn btn-lg disabled">Download Now</a>
             </form>
         </div>
     </section>
@@ -61,8 +58,8 @@
             <div class="firstPart">
                 <h2 class="text-center text-bold text-lucida text-subheading ">About Me</h2>
                 <div class="container align-items-center d-flex flex-column flex-lg-row">
-                    <img style="min-width: 250px; border: 10px solid rgba(239, 90, 48, 0.15)" class="mr-5 bio-pic img-fluid rounded-circle" src="images/dolean-profile.png" srcset="images/dolean-profile@2x.png 2x" alt="Dolean">
-                    <article class="pl-5 info mx-4 my-5">
+                    <img style="min-width: 250px; border: 10px solid rgba(239, 90, 48, 0.15)" class="mr-md-5 bio-pic img-fluid rounded-circle" src="images/dolean-profile.png" srcset="images/dolean-profile@2x.png 2x" alt="Dolean">
+                    <article class="pl-lg-5 info mx-4 my-5">
                         <strong><p class="w-600">Who Am I?</p></strong><br/>
                         <p>
                             Hi, I'm Danielle. I am a scrum product owner and UX expert specializing in <strong>digital products</strong> and <strong>e-commerce</strong>.
@@ -94,7 +91,7 @@
                     <img class="skills-pic" src="images/skills.svg" alt="My Skills">
                 </div>
             </div>
-            <div class="thirdPart mx-auto" style="max-width: 700px;">
+            <div class="thirdPart mx-auto pr-4" style="max-width: 700px;">
                 <h3 class="mb-4 font-weight-bold text-center">What are my accomplishments?</h3>
                 <ul class=" text-18 list-unstyled">
                     <li class="mb-5 d-flex align-items-center">
@@ -147,20 +144,20 @@
                 <div id="text-carousel" class="carousel slide mb-5" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators pb-5">
-                        <li data-target="#text-carousel" data-slide-to="0" class="active">
-                            <img id="indicator-pic1" class="d-block rounded-circle img-fluid" 
+                        <li style="max-width: 90px;" data-target="#text-carousel" data-slide-to="0" class="active">
+                            <img id="indicator-pic1" style="height:auto" class="d-block rounded-circle img-fluid" 
                             src="images/person-1.jpg" 
                             alt="First Person"
                             srcset="images/person-1@2x.jpg">
                         </li>
-                        <li data-target="#text-carousel" data-slide-to="1">
-                            <img id="indicator-pic2" class="d-block rounded-circle img-fluid" 
+                        <li style="max-width: 90px;" data-target="#text-carousel" data-slide-to="1">
+                            <img id="indicator-pic2" style="height:auto" class="d-block rounded-circle img-fluid" 
                             src="images/person-2.jpg" 
                             alt="Second Person"
                             srcset="images/person-2@2x.jpg">
                         </li>
-                        <li data-target="#text-carousel" data-slide-to="2">
-                            <img id="indicator-pic3" class="d-block rounded-circle img-fluid" 
+                        <li style="max-width: 90px;" data-target="#text-carousel" data-slide-to="2">
+                            <img id="indicator-pic3" style="height:auto" class="d-block rounded-circle img-fluid" 
                             src="images/person-2.jpg" 
                             alt="Second Person"
                             srcset="images/person-2@2x.jpg">
@@ -169,27 +166,33 @@
                 <!-- Wrapper for slides -->
                     <div class="carousel-inner" role= "listbox" id="carouselCont">
                         <div class="carousel-item active pt-0">
-                            <p class="testims info text-sm-10 text-proxima text-18" >What impresses me most about Danielle is her positive attitude, willingness to roll up her sleeves, and her resourcefulness. For example, on several occasions, Danielle took on projects that involved technology with which she wasn’t particularly familiar. She not only figured out how to be efficient with these tools, she taught herself to modify the technology so that the rest of the company could leverage them to the best of our ability.</p>
-                            <div class="d-flex mb-5 align-items-end flex-column">
-                                <p class="quote-name mb-0">
-                                <strong>Amy</strong></p>
-                                <p class="quote-title">Product Management at Drizly</p>
+                            <div class="carousel-item-content mx-auto d-flex flex-column justify-content-center">
+                                <p class="testimonial-text testims info text-sm-10 text-proxima text-18" >What impresses me most about Danielle is her positive attitude, willingness to roll up her sleeves, and her resourcefulness. For example, on several occasions, Danielle took on projects that involved technology with which she wasn’t particularly familiar. She not only figured out how to be efficient with these tools, she taught herself to modify the technology so that the rest of the company could leverage them to the best of our ability.</p>
+                                <div class="d-flex mb-5 align-items-end flex-column">
+                                    <p class="quote-name mb-0">
+                                    <strong>Amy</strong></p>
+                                    <p class="quote-title">Product Management at Drizly</p>
+                                </div>
                             </div>
                         </div>
                         <div class="carousel-item pt-0">
-                            <p class="testims info text-sm-10 text-proxima text-18">From the start, Danielle demonstrated that she is a ‘go-getter’ who is able to take an idea and see it through to fruition... Danielle’s upbeat attitude and drive to continue to learn and grow ensured that she was a valuable asset to a team that continued to grow as the business expanded.</p>
+                            <div class="carousel-item-content mx-auto d-flex flex-column justify-content-center">
+                            <p class="testimonial-text testims info text-sm-10 text-proxima text-18">From the start, Danielle demonstrated that she is a ‘go-getter’ who is able to take an idea and see it through to fruition... Danielle’s upbeat attitude and drive to continue to learn and grow ensured that she was a valuable asset to a team that continued to grow as the business expanded.</p>
                             <div class="d-flex mb-5 align-items-end flex-column">
                                 <p class="quote-name mb-0">
                                     <strong>Zach</strong></p>
                                 <p class="quote-title">Operations Process Improvement at Wayfair</p>
                             </div>
                         </div>
+                        </div>
                         <div class="carousel-item pt-0">
-                            <p class="testims info text-sm-10 text-proxima text-18">Most important is her ability to interact with all types of people... With her enthusiasm and hard work, she built a very successful new market for our company.</p>
+                            <div class="carousel-item-content mx-auto d-flex flex-column justify-content-center">
+                            <p class="testimonial-text testims info text-sm-10 text-proxima text-18">Most important is her ability to interact with all types of people... With her enthusiasm and hard work, she built a very successful new market for our company.</p>
                             <div class="d-flex mb-5 align-items-end flex-column">
                                 <p class="quote-name mb-0">
                                     <strong>Jen</strong></p>
                                 <p class="quote-title">Campus Special</p>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -213,84 +216,78 @@
     <section id="resources" class="section">
         <h2 class="text-center text-bold text-lucida text-subheading mb-5">Resources</h2>
         <div class="container pt-4 pb-4">
-          <div class="row">
-          <div class="col-12 col-md-4 mb-4">
-            <div class="mb-4 pl-sm-3 pr-sm-3 res-columns">
-              <h4 class="text-proxima text-20 mb-3">
-                <a target="_blank" href="https://www.productschool.com/product-management-events/">Product School - Events
-                </a>
-              </h4>
-              <p>Variety of events featuring speakers from well-known tech companies sharing their experiences and advice on product management.</p>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                <h4 class="text-proxima text-20 mb-3">
+                    <a target="_blank" href="https://www.productschool.com/product-management-events/">Product School - Events
+                    </a>
+                </h4>
+                <p>Variety of events featuring speakers from well-known tech companies sharing their experiences and advice on product management.</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <h4 class="text-proxima text-20 mb-3">
+                        <a target="_blank" href="https://www.amazon.com/Jobs-Be-Done-Customer-Centered-Innovation/dp/0814438032">Jobs to Be Done (Book)</a>
+                    </h4>
+                    <p>An introduction to Jobs Theory, a customer centered approach to innovation that focuses on "determining the drivers of customer behavior--those functional and emotional goals that people want to achieve.</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <h4 class="text-proxima text-20 mb-3">
+                        <a target="_blank" href="https://www.youtube.com/channel/UCG2uDvujf-61Rsq_f7j0oGw">Angela Druckman Youtube Channel</a>
+                    </h4>
+                    <p>Quick videos on tips for improving efficiency of agile and scrum meetings and processes.</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <h4 class="text-proxima text-20 mb-3">
+                        <a  target="_blank" href="https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034">How to Win Friends and Influence People (Book)</a>
+                    </h4>
+                    <p>As a product manager, you are the liaison of several different departments and competing priorities. Let this book help you smoothly navigate and influence these relationships through leadership and facilitating agreements in order to maximize your company's productivity.</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <h4 class="text-proxima text-20 mb-3">
+                        <a target="_blank" href="https://www.mountaingoatsoftware.com/agile">Mountain Goat Software Agile Blog</a>
+                    </h4>
+                    <p>A blog featuring tips, explanations and resources on adapting agile to your company's needs.</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <h4 class="text-proxima text-20 mb-3">
+                        <a target="_blank" href="https://www.atlassian.com/team-playbook">Atlassian Team Playbook</a>
+                    </h4>
+                    <p>Recipe-like instructions on improving team productivity, overall health, and meeting effectiveness.</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <h4 class="text-20 mb-3">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/Phase-gate_process">Phase Gate Process</a>
+                    </h4>
+                    <p>I like to adapt this proces to agile for how I convey the phases of a project to the business-side. We define projects we discuss in our stakeholder meetings by these phases, each phase denotes the action to be taken in the meeting. For example, items in Phase 0 mean the discussion is focused around cost benefits, risks, market-share, and competittion and the guiding question is: Should we do this project?</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <h4 class="text-20 mb-3">
+                        <a target="_blank" href="http://agilemanifesto.org/">Agile Manifesto</a>
+                    </h4>
+                    <p>Theory of software development that guides many young technological startups, agile focuses on the ability to adapt to changing situations and iterate on software development and process improvement.</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <h4 class="text-20 mb-3">
+                        <a target="_blank" href="https://www.owasp.org/index.php/Main_Page">Open Web Application Security Project (OWASP)</a>
+                    </h4>
+                    <p>The Open Web Application Security Project (OWASP) is a 501(c)(3) worldwide not-for-profit charitable organization focused on improving the security of software. As a product manager, you will likely be writing features that has security impllications and it's important that you're aware and across best practices for this.</p>
+                </div>
             </div>
-            <div class="mb-4 pl-sm-3 pr-sm-3 res-columns">
-              <h4 class="text-proxima text-20 mb-3">
-                <a target="_blank" href="https://www.amazon.com/Jobs-Be-Done-Customer-Centered-Innovation/dp/0814438032">Jobs to Be Done (Book)</a>
-              </h4>
-              <p>An introduction to Jobs Theory, a customer centered approach to innovation that focuses on "determining the drivers of customer behavior--those functional and emotional goals that people want to achieve.</p>
-            </div>
-            <div class="mb-4 pl-sm-3 pr-sm-3 res-columns">
-              <h4 class="text-proxima text-20 mb-3">
-                <a target="_blank" href="https://www.youtube.com/channel/UCG2uDvujf-61Rsq_f7j0oGw">Angela Druckman Youtube Channel</a>
-              </h4>
-              <p>Quick videos on tips for improving efficiency of agile and scrum meetings and processes.</p>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 mb-4">
-            <div class="mb-4 pl-sm-3 pr-sm-3 res-columns">
-              <h4 class="text-proxima text-20 mb-3">
-                <a  target="_blank" href="https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034">How to Win Friends and Influence People (Book)</a>
-              </h4>
-              <p>As a product manager, you are the liaison of several different departments and competing priorities. Let this book help you smoothly navigate and influence these relationships through leadership and facilitating agreements in order to maximize your company's productivity.</p>
-            </div>
-            <div class="mb-4 pl-sm-3 pr-sm-3 res-columns">
-              <h4 class="text-proxima text-20 mb-3">
-                <a target="_blank" href="https://www.mountaingoatsoftware.com/agile">Mountain Goat Software Agile Blog</a>
-              </h4>
-              <p>A blog featuring tips, explanations and resources on adapting agile to your company's needs.</p>
-            </div>
-            <div class="mb-4 pl-sm-3 pr-sm-3 res-columns">
-              <h4 class="text-proxima text-20 mb-3">
-                <a target="_blank" href="https://www.atlassian.com/team-playbook">Atlassian Team Playbook</a>
-              </h4>
-              <p>Recipe-like instructions on improving team productivity, overall health, and meeting effectiveness.</p>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 mb-4"> 
-            <div class="mb-4 pl-sm-3 pr-sm-3 res-columns">
-            <h4 class="text-20 mb-3">
-              <a target="_blank" href="https://en.wikipedia.org/wiki/Phase-gate_process">Phase Gate Process</a>
-            </h4>
-            <p>I like to adapt this proces to agile for how I convey the phases of a project to the business-side. We define projects we discuss in our stakeholder meetings by these phases, each phase denotes the action to be taken in the meeting. For example, items in Phase 0 mean the discussion is focused around cost benefits, risks, market-share, and competittion and the guiding question is: Should we do this project?</p>
-          </div>
-          <div class="mb-4 pl-sm-3 pr-sm-3 res-columns">
-            <h4 class="text-20 mb-3">
-              <a target="_blank" href="http://agilemanifesto.org/">Agile Manifesto</a>
-            </h4>
-            <p>Theory of software development that guides many young technological startups, agile focuses on the ability to adapt to changing situations and iterate on software development and process improvement.</p>
-          </div>
-          <div class="mb-4 pl-sm-3 pr-sm-3 res-columns">
-            <h4 class="text-20 mb-3">
-              <a target="_blank" href="https://www.owasp.org/index.php/Main_Page">Open Web Application Security Project (OWASP)</a>
-            </h4>
-            <p>The Open Web Application Security Project (OWASP) is a 501(c)(3) worldwide not-for-profit charitable organization focused on improving the security of software. As a product manager, you will likely be writing features that has security impllications and it's important that you're aware and across best practices for this.</p>
-          </div>
-        </div>
-        </div>
-          <a href="" class="btn btn-lg btn-outline-danger mx-auto read-more-btn btn-block">
-            <span class="mr-1">Get More Resources</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="12" viewbox="0 0 19 12">
+            <a href="" class="btn btn-lg btn-outline-danger mx-auto read-more-btn btn-block">
+                <span class="mr-1">Get More Resources</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="12" viewbox="0 0 19 12">
               <path d="M19 6l-7.125-6v3.6C6.531 3.6 2.375 4.8 0 10.8c3.563-3 7.125-3.6 11.875-2.4V12L19 6z"/>
             </svg>
           </a>
         </div>
-      </section>
-      <section id="blog" class="section background-blue">
+    </section>
+    <section id="blog" class="section background-blue">
         <div class="container mt-4 mb-4 pb-5 text-center">
           <h2 class="mb-5 text-subheading text-lucida text-bold">Blog</h2>
           <div class="d-inline-flex flex-column flex-md-row mb-5">
             <a href="#" class="mb-4 position-relative img-container ml-3 mr-3">
             <img class=" blog-img img-fluid" 
-                src="images/blogimg-1.png" 
+                src="images/blogimg-1.jpg" 
                 alt="Blog First Image">
             <p class="text-left position-absolute mb-0 p-4 caption w-100 text-orange font-weight-bold text-lucida text-20">
                 Why Internships Are Your Key to Post-Grad Success
@@ -298,14 +295,14 @@
             </a>
             <a href="#" class="mb-4 position-relative img-container ml-3 mr-3">
               <img class="blog-img img-fluid" 
-                src="images/blogimg-2.png" 
+                src="images/blogimg-2.jpg" 
                 alt="Blog Second Image">
               <p class="text-left position-absolute mb-0 p-4 caption w-100 font-weight-bold text-lucida text-20 text-orange">
                 How I got a tech career with a communication degree</p>
             </a>
             <a href="#" class="mb-4 position-relative img-container ml-3 mr-3">
               <img class="blog-img img-fluid" 
-                src="images/blogimg-3.png" 
+                src="images/blogimg-3.jpg" 
                 alt="Blog Third Image">
               <p class="text-left position-absolute mb-0 p-4 caption w-100 text-orange font-weight-bold text-lucida text-20">
                 Pros and Cons of #StartUpLife</p>
@@ -326,13 +323,13 @@
         <h2 class="font-weight-bold text-center text-subheading mb-5">Contact</h2>
         <div class="d-flex justify-content-center justify-content-sm-left flex-wrap social-icons">
             <a target="_blank" href="https://angel.co/danielle-olean?public_profile=1" class="mr-3">
-                <img src="images/icon-angellist.svg" alt="Icon Angelist" class="img-fluid mb-5" />
+                <img src="images/angellist.svg" alt="Icon Angelist" class="img-fluid mb-5" />
             </a>
             <a target="_blank" href="https://www.linkedin.com/in/dolean1/" class="mr-3">
-                <img src="images/icon-linkedin.svg" alt="Icon Linkedin" class="img-fluid mb-5" />
+                <img src="images/linkedin.svg" alt="Icon Linkedin" class="img-fluid mb-5" />
             </a>
             <a target="_blank" href="mailto:danielle.olean@gmail.com">
-                <img src="images/icon-mail.svg" alt="Icon Envelope" class="img-fluid mb-5" />
+                <img src="images/mail.svg" alt="Icon Envelope" class="img-fluid mb-5" />
             </a>
         </div>
       </section>
@@ -344,7 +341,7 @@
                 </div>
                 <div class="d-flex align-items-center">
                     <span>Designed with</span>
-                    <img class="ml-2 mr-2" src="images/icon-heart.svg" alt="Heart Icon" />
+                    <img class="ml-2 mr-2" src="images/heart-icon.svg" alt="Heart Icon" />
                     <span>by &nbsp;</span>
                     <a href="https://www.behance.net/vladislava940a" class="link-orange">Vlada Boiko</a>
                 </div>
