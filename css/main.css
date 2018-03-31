@@ -4,7 +4,7 @@ body {
 /*================================
  Header */
 .hero-section {
-  background-image: url(../images/bg-hero.jpg);
+  background-image: url(../images/bg-hero.png);
   background-size: cover;
   min-height: 100vh;
 }
@@ -42,7 +42,6 @@ body {
 .site-header.scrolling .navbar-nav .nav-item .nav-link {
   color: initial;
 }
-
 .navbar-nav .nav-item .nav-link:before {
   content: '';
   position: absolute;
@@ -64,7 +63,7 @@ body {
 .logo-mobile path {
   fill: #fff;
 }
-/* End Mobile Layout */
+
 /* End Header 
 =================================*/
 .main-form {
@@ -356,3 +355,5 @@ section .read-more-btn svg path {
     opacity: 0;
   }
 }
+/* End of the Blog Section 
+===================================== */
