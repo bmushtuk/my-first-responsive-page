@@ -300,15 +300,16 @@ section .read-more-btn svg path {
     display: none;
   }
   form.main-form {
-    max-width: 290px;
+    max-width: 270px;
     max-height: 350px;
   }
   .form-control-lg {
     font-size: medium;
   }
   #hero-text {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-top: 0px;
+    padding-left: 50px;
   }
   .w-600 {
     text-align: center;
